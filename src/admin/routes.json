@@ -1,0 +1,6 @@
+{
+  "admin.app.example": {
+    "component": "IndexApp",
+    "path": "/admin/app/partner-network"
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "partnernetwork.app.errors.required"
+  },
+  {
+    "id": "partnernetwork.app.errors.name"
+  },
+  {
+    "id": "partnernetwork.app.errors.description"
+  },
+  {
+    "id": "partnernetwork.app.input-client-name.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.input-client-accountName.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.input-client-description.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.upload-image-recommendation"
+  },
+  {
+    "id": "partnernetwork.app.checkClientApproved"
+  },
+  {
+    "id": "partnernetwork.app.about-the-client"
+  },
+  {
+    "id": "partnernetwork.app.button-cancel"
+  },
+  {
+    "id": "partnernetwork.app.button-save"
+  }
+]

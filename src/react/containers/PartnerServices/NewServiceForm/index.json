@@ -1,0 +1,26 @@
+[
+  {
+    "id": "partnernetwork.app.errors.required"
+  },
+  {
+    "id": "partnernetwork.app.errors.name"
+  },
+  {
+    "id": "partnernetwork.app.errors.description"
+  },
+  {
+    "id": "partnernetwork.app.input-service-name.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.input-service-description.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.about-the-service"
+  },
+  {
+    "id": "partnernetwork.app.button-cancel"
+  },
+  {
+    "id": "partnernetwork.app.button-save"
+  }
+]

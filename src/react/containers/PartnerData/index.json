@@ -1,0 +1,59 @@
+[
+  {
+    "id": "partnernetwork.app.errors.required"
+  },
+  {
+    "id": "partnernetwork.app.errors.name"
+  },
+  {
+    "id": "partnernetwork.app.errors.description"
+  },
+  {
+    "id": "partnernetwork.app.errors.email"
+  },
+  {
+    "id": "partnernetwork.app.input-company-name.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.input-website.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.input-description.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.status-approved"
+  },
+  {
+    "id": "partnernetwork.app.status-waiting"
+  },
+  {
+    "id": "partnernetwork.app.status-pending"
+  },
+  {
+    "id": "partnernetwork.app.company-name"
+  },
+  {
+    "id": "partnernetwork.app.upload-image-recommendation"
+  },
+  {
+    "id": "partnernetwork.app.select-region.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.select-partner-type.placeholder"
+  },
+  {
+    "id": "partnernetwork.app.about-the-partner"
+  },
+  {
+    "id": "partnernetwork.app.about-the-partner-minimum"
+  },
+  {
+    "id": "partnernetwork.app.categories-and-subcategories-title"
+  },
+  {
+    "id": "partnernetwork.app.categories-and-subcategories-subtitle"
+  },
+  {
+    "id": "partnernetwork.app.button-save"
+  }
+]

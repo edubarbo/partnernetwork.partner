@@ -1,0 +1,20 @@
+{
+  "/admin/app/partner-network": {
+    "handler": "vtex.render-server/render",
+    "headers": {
+      "x-vtex-render-domain": "admin",
+      "x-vtex-render-path-id": "/admin/app/partner-network"
+    },
+    "path": "/admin/app/partner-network",
+    "public": true,
+    "rootOnly": true,
+    "version": "5.0.0",
+    "releasedAt": 1617739550713
+  },
+  "gql": {
+    "path": "/gql",
+    "public": true,
+    "version": "5.0.0",
+    "releasedAt": 1617739550713
+  }
+}

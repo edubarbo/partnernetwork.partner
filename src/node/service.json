@@ -1,0 +1,14 @@
+{
+  "memory": 128,
+  "ttl": 6,
+  "timeout": 30,
+  "minReplicas": 2,
+  "maxReplicas": 10,
+  "workers": 4,
+  "routes": {
+    "gql": {
+      "path": "/gql",
+      "public": true
+    }
+  }
+}
