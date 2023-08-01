@@ -1282,8 +1282,13 @@ var PartnerData = function PartnerData() {
   };
 
   var isEmail = function isEmail(email) {
-    return !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email);
+    return !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]+$/i.test(email);
   };
+  
+  var isDescription = function isDescription(description) {
+    return /['"]/.test(description);
+  };
+  
 
   var validateInputs = function validateInputs(_ref) {
     var _ref$showErrors = _ref.showErrors,
@@ -1305,12 +1310,16 @@ var PartnerData = function PartnerData() {
       newErrors.description = intl.formatMessage({
         "id": "partnernetwork.app.errors.required"
       });
+    } else if (isDescription(partnerData.description)) {
+      newErrors.description = intl.formatMessage({
+        "id": "partnernetwork.app.errors.description"
+      });
     } else if (partnerData.description.length < 200) {
       newErrors.description = intl.formatMessage({
         "id": "partnernetwork.app.errors.description"
       });
     }
-
+    
     if (partnerData.imgURL === '') {
       newErrors.imgURL = intl.formatMessage({
         "id": "partnernetwork.app.errors.required"

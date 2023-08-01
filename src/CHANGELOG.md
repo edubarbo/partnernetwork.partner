@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [5.0.10] - 2022-08-01 update the email and description fields
+
 ## [5.0.9] - 2022-04-05
 
 ## [5.0.8] - 2022-04-05

@@ -177,8 +177,11 @@ const PartnerData = () => {
     })
   }
 
-  const isEmail = (email: string) =>
-    !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(email)
+    const isEmail = (email: string) =>
+    !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]+$/i.test(email)
+    
+    const isDescription = (description: string) =>
+     /['"]/.test(description)
 
   const validateInputs = ({ showErrors = true }) => {
     const newErrors: IError = {}
@@ -196,12 +199,16 @@ const PartnerData = () => {
 
     if (partnerData.description === '') {
       newErrors.description = intl.formatMessage({
-        id: 'partnernetwork.app.errors.required',
-      })
+        "id": "partnernetwork.app.errors.required"
+      });
+    } else if (isDescription(partnerData.description)) {
+      newErrors.description = intl.formatMessage({
+        "id": "partnernetwork.app.errors.description"
+      });
     } else if (partnerData.description.length < 200) {
       newErrors.description = intl.formatMessage({
-        id: 'partnernetwork.app.errors.description',
-      })
+        "id": "partnernetwork.app.errors.description"
+      });
     }
 
     if (partnerData.imgURL === '') {

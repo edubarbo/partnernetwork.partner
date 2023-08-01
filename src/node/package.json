@@ -1,1 +1,24 @@
-{"dependencies":{"@vtex/clients":"^2.6.0","async-busboy":"^1.0.1","form-data":"^4.0.0"},"devDependencies":{"@types/async-busboy":"^0.7.0","@types/co-body":"^0.0.3","@types/node":"12.x","@vtex/api":"6.45.11-beta","eslint":"^6.3.0","eslint-config-vtex":"^11.0.0","partnernetwork.partner":"http://partnernetwork.vtexassets.com/_v/public/typings/v1/partnernetwork.partner@5.0.5/public/@types/partnernetwork.partner","prettier":"^1.18.2","typescript":"3.9.7","vtex.store-resources":"http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.86.0/public/@types/vtex.store-resources","vtex.styleguide":"http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide"},"scripts":{"lint":"tsc --noEmit --pretty && eslint -c .eslintrc.json --fix './**/*.ts'"},"version":"5.0.8"}
+{
+  "dependencies": {
+    "@vtex/clients": "^2.6.0",
+    "async-busboy": "^1.0.1",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/async-busboy": "^0.7.0",
+    "@types/co-body": "^0.0.3",
+    "@types/node": "12.x",
+    "@vtex/api": "6.45.19",
+    "eslint": "^6.3.0",
+    "eslint-config-vtex": "^11.0.0",
+    "partnernetwork.partner": "http://partnernetwork.vtexassets.com/_v/public/typings/v1/partnernetwork.partner@5.0.5/public/@types/partnernetwork.partner",
+    "prettier": "^1.18.2",
+    "typescript": "3.9.7",
+    "vtex.store-resources": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.86.0/public/@types/vtex.store-resources",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit --pretty && eslint -c .eslintrc.json --fix './**/*.ts'"
+  },
+  "version": "5.0.8"
+}
