@@ -221,10 +221,10 @@
     lodash.unescape "4.0.1"
     semver "5.5.0"
 
-"@vtex/api@6.45.19":
-  version "6.45.19"
-  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.45.19.tgz#97b449850b517d6610e7123aa91caec2a29ae7b1"
-  integrity sha512-WUsAn1Oi+Z7Ih84DcRf4HQH85Mh+zO84L0ta7zuRyb13DoAEq2qMi0Mv6vZMd9BFWOCSD8AcTHVF/gZskwh9Yw==
+"@vtex/api@6.45.20":
+  version "6.45.20"
+  resolved "https://registry.yarnpkg.com/@vtex/api/-/api-6.45.20.tgz#c1090249a424fd700499de3fed0d80d99ff53332"
+  integrity sha512-O7RJWWr4PfvixNpc0GgQh85iKcv9j1IKkpApwJQSW/WzxoTgSrcjYHOVUmJ1GWWBmRV/qvB2VaV6Ow1QL3UOCQ==
   dependencies:
     "@types/koa" "^2.11.0"
     "@types/koa-compose" "^3.2.3"
@@ -1786,9 +1786,9 @@ parseurl@^1.3.2:
   resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
 
-"partnernetwork.partner@http://partnernetwork.vtexassets.com/_v/public/typings/v1/partnernetwork.partner@5.0.5/public/@types/partnernetwork.partner":
+"partnernetwork.partner@https://playground--partnernetwork.myvtex.com/_v/private/typings/linked/v1/partnernetwork.partner@5.0.10+build1694561738/public/_types/react":
   version "0.0.0"
-  resolved "http://partnernetwork.vtexassets.com/_v/public/typings/v1/partnernetwork.partner@5.0.5/public/@types/partnernetwork.partner#0263aa41aaa891f1d4756df0e45fe8d4fc4b2629"
+  resolved "https://playground--partnernetwork.myvtex.com/_v/private/typings/linked/v1/partnernetwork.partner@5.0.10+build1694561738/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -2064,7 +2064,7 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-"stats-lite@github:vtex/node-stats-lite#dist":
+stats-lite@vtex/node-stats-lite#dist:
   version "2.2.0"
   resolved "https://codeload.github.com/vtex/node-stats-lite/tar.gz/1b0d39cc41ef7aaecfd541191f877887a2044797"
   dependencies:
@@ -2363,13 +2363,13 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-"vtex.store-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.86.0/public/@types/vtex.store-resources":
-  version "0.86.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.86.0/public/@types/vtex.store-resources#f7342903c67ab8abe50f413b2ca4b845c93e4706"
+"vtex.store-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.91.0/public/@types/vtex.store-resources":
+  version "0.91.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.91.0/public/@types/vtex.store-resources#16b841f01725d35f0b5bc2ad386dcdcb10020d0f"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide":
-  version "9.146.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide#66db40ca1b78ad77ce4beedabecee320e1ef2ead"
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide":
+  version "9.146.9"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide#d1601fedfb665c6173334753171717da64e670bc"
 
 which@^1.2.9:
   version "1.3.1"

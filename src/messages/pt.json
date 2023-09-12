@@ -38,5 +38,7 @@
   "partnernetwork.app.errors.required": "Obrigatorio",
   "partnernetwork.app.errors.name": "Mínimo 3 caracteres ou mais",
   "partnernetwork.app.errors.description": "Mínimo 10 caracteres ou mais",
-  "partnernetwork.app.errors.email": "Introduzir um email válido"
+  "partnernetwork.app.errors.email": "Introduzir um email válido",
+  "partnernetwork.app.main-category-title": "Categoria Principal",
+  "partnernetwork.app.main-category-subtitle": "Greeting to welcome the user to the app"
 }

@@ -7,6 +7,7 @@ import {
   Spinner,
   Alert,
   CheckboxGroup,
+  Dropdown
 } from 'vtex.styleguide'
 import { FormattedMessage, useIntl } from 'react-intl'
 import { useQuery, gql, useMutation } from '@apollo/client'
@@ -16,6 +17,7 @@ import { useRuntime } from 'vtex.render-runtime'
 import countries from './countries'
 import partnerTypes from './partnerTypes'
 import { categories } from './categories'
+import { mainCategories } from './maincategories'
 
 // Components
 import Select from '../../components/Select'
@@ -28,7 +30,7 @@ const countryOptions = countries.map((country) => ({
   label: country,
   value: country,
 }))
-
+//TODO - Continuar testando input da linha 675
 const partnerQuery = gql`
   query getPartner($account: String) {
     partner(account: $account)
@@ -668,6 +670,25 @@ const PartnerData = () => {
           errorMessage={errors.description}
           placeholder={inputDescriptionPlaceholder}
         />
+      </div>
+
+      <div className="mb7 categories-and-subcategories">
+        <h3 className="t-heading-3">
+          <FormattedMessage id="partnernetwork.app.main-category-title"/>
+        </h3>
+        <small>
+          <FormattedMessage id="partnernetwork.app.main-category-subtitle"/>
+        </small>
+
+        <div>
+          <Dropdown 
+            options={mainCategories}
+            value={partnerData.maincategory}
+            onChange={(e: Event, value: string) =>
+              handleInputChange(value, 'maincategory')
+            }
+          />
+        </div>
       </div>
 
       <div className="mb7 categories-and-subcategories">
