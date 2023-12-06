@@ -37,4 +37,9 @@ export default class PartnerVTEXServices extends ExternalClient {
       variables,
     })
   }
+
+  //TODO: Retirar
+  public async dummyGet(): Promise<IOResponse<any>> {
+    return this.http.get('/_v/playground')
+  }
 }

@@ -5,7 +5,7 @@ import { FormattedMessage } from 'react-intl'
 
 // Containers
 import PartnerData from './containers/PartnerData'
-import PartnerServices from './containers/PartnerServices'
+//import PartnerServices from './containers/PartnerServices'
 import PartnerClients from './containers/PartnerClients'
 
 // Hooks
@@ -27,7 +27,7 @@ const App = () => {
         </PageBlock>
       </Tab>
 
-      <Tab
+      {/*<Tab
         active={currentTab === 1}
         disabled={!partnerData.id}
         onClick={() => setCurrentTab(1)}
@@ -36,7 +36,7 @@ const App = () => {
         <PageBlock variation="full">
           <PartnerServices />
         </PageBlock>
-      </Tab>
+      </Tab>*/}
 
       <Tab
         active={currentTab === 2}

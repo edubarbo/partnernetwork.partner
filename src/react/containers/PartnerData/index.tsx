@@ -30,8 +30,9 @@ const countryOptions = countries.map((country) => ({
   label: country,
   value: country,
 }))
-//TODO - Continuar testando input da linha 675
-//TODO - Validação do Save Button está com erro
+//TODO: Continuar testando input da linha 675
+//TODO: Validação do Save Button está com erro
+//TODO: Retirar a aba de Services do Código
 const partnerQuery = gql`
   query getPartner($account: String) {
     partner(account: $account)
