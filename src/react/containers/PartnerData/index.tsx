@@ -31,10 +31,11 @@ const countryOptions = countries.map((country) => ({
   value: country,
 }))
 //TODO - Continuar testando input da linha 675
+//TODO - Validação do Save Button está com erro
 const partnerQuery = gql`
   query getPartner($account: String) {
     partner(account: $account)
-      @context(provider: "partnernetwork.vtex-services@0.x") {
+      @context(provider: "partnernetwork.vtex-services@1.x") {
       id
       name
       email
@@ -58,14 +59,14 @@ const partnerQuery = gql`
           name
         }
       }
+      mainCategoryId
     }
   }
 `
 
 const savePartnerQuery = gql`
   mutation savePartner($input: PartnerInput) {
-    partner: savePartner(input: $input)
-      @context(provider: "partnernetwork.vtex-services@0.x") {
+    partner: savePartner(input: $input) {
       id
       name
       email
@@ -78,6 +79,7 @@ const savePartnerQuery = gql`
       types
       regions
       description
+      mainCategoryId
     }
   }
 `
@@ -683,9 +685,9 @@ const PartnerData = () => {
         <div>
           <Dropdown 
             options={mainCategories}
-            value={partnerData.maincategory}
+            value={partnerData.mainCategoryId}
             onChange={(e: Event, value: string) =>
-              handleInputChange(value, 'maincategory')
+              handleInputChange(value, 'mainCategoryId')
             }
           />
         </div>

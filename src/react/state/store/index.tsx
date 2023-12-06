@@ -21,7 +21,7 @@ const initialState: State = {
     imgURL: '',
     description: '',
     status: '',
-    maincategory: ''
+    mainCategoryId: ''
   },
   clients: [],
   services: [],

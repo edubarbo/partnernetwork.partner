@@ -4,6 +4,7 @@ import asyncBusboy from 'async-busboy'
 import { json } from 'co-body'
 
 export async function handleGql(ctx: Context, next: () => Promise<any>) {
+
   if (ctx.request.is('multipart/*')) {
     const formData = new FormData()
 

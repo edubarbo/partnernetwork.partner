@@ -1,27 +1,35 @@
 export const mainCategories = [
     {
-      value: 'marketing',
-      label: 'Marketing'
+      value: '2',
+      label: 'Aplicativos'
     },
     {
-      value: 'operacoes-e-fulfillment',
-      label: 'Operações e Fulfillment'
+      value: '9',
+      label: 'Parceiros > Customer Service'
     },
     {
-      value: 'gestao-de-ecommerce',
-      label: 'Gestão de Ecommerce'
+      value: '6',
+      label: 'Parceiros > Gestão de Ecommerce'
     },
     {
-      value: 'servicos-financeiros',
-      label: 'Serviços Financeiros'
+      value: '4',
+      label: 'Parceiros > Implementação e Vendas'
     },
     {
-      value: 'marketplaces',
-      label: 'Marketplaces'
+      value: '3',
+      label: 'Parceiros > Marketing'
     },
     {
-      value: 'implementacao-e-vendas',
-      label: 'Implementação e Vendas'
+      value: '8',
+      label: 'Parceiros > Marketplaces'
+    },
+    {
+      value: '5',
+      label: 'Parceiros > Operações e Fulfillment'
+    },
+    {
+      value: '7',
+      label: 'Parceiros > Serviços Financeiros'
     },
   ]
   

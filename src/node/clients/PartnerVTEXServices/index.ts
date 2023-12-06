@@ -14,9 +14,11 @@ interface GetDataByQuery {
   }
 }
 
+//TODO: Alterar o workspace
+
 export default class PartnerVTEXServices extends ExternalClient {
   constructor(context: IOContext, options?: InstanceOptions) {
-    super('http://partnernetwork.myvtex.com', context, options)
+    super('http://playground--partnernetwork.myvtex.com', context, options)
   }
 
   public async getDataWithFormData(
