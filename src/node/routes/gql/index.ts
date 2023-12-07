@@ -4,10 +4,12 @@ import asyncBusboy from 'async-busboy'
 import { json } from 'co-body'
 
 export async function handleGql(ctx: Context, next: () => Promise<any>) {
+
   if (ctx.request.is('multipart/*')) {
     const formData = new FormData()
 
     const { fields, files } = await asyncBusboy(ctx.req)
+    console.log(files)
 
     Object.entries(fields).forEach(([key, value]) => {
       formData.append(key, value)
@@ -23,8 +25,8 @@ export async function handleGql(ctx: Context, next: () => Promise<any>) {
         headers: formData.getHeaders(),
       }
     )
-
     ctx.body = response
+
   } else {
     const body = await json(ctx.req)
 

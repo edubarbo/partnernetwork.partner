@@ -7,6 +7,7 @@ import {
   Spinner,
   Alert,
   CheckboxGroup,
+  Dropdown
 } from 'vtex.styleguide'
 import { FormattedMessage, useIntl } from 'react-intl'
 import { useQuery, gql, useMutation } from '@apollo/client'
@@ -16,6 +17,7 @@ import { useRuntime } from 'vtex.render-runtime'
 import countries from './countries'
 import partnerTypes from './partnerTypes'
 import { categories } from './categories'
+import { mainCategories } from './maincategories'
 
 // Components
 import Select from '../../components/Select'
@@ -28,11 +30,13 @@ const countryOptions = countries.map((country) => ({
   label: country,
   value: country,
 }))
-
+//TODO: Continuar testando input da linha 675
+//TODO: Validação do Save Button está com erro
+//TODO: Retirar a aba de Services do Código
 const partnerQuery = gql`
   query getPartner($account: String) {
     partner(account: $account)
-      @context(provider: "partnernetwork.vtex-services@0.x") {
+      @context(provider: "partnernetwork.vtex-services@1.x") {
       id
       name
       email
@@ -56,14 +60,14 @@ const partnerQuery = gql`
           name
         }
       }
+      mainCategoryId
     }
   }
 `
 
 const savePartnerQuery = gql`
   mutation savePartner($input: PartnerInput) {
-    partner: savePartner(input: $input)
-      @context(provider: "partnernetwork.vtex-services@0.x") {
+    partner: savePartner(input: $input) {
       id
       name
       email
@@ -76,6 +80,7 @@ const savePartnerQuery = gql`
       types
       regions
       description
+      mainCategoryId
     }
   }
 `
@@ -668,6 +673,25 @@ const PartnerData = () => {
           errorMessage={errors.description}
           placeholder={inputDescriptionPlaceholder}
         />
+      </div>
+
+      <div className="mb7 categories-and-subcategories">
+        <h3 className="t-heading-3">
+          <FormattedMessage id="partnernetwork.app.main-category-title"/>
+        </h3>
+        <small>
+          <FormattedMessage id="partnernetwork.app.main-category-subtitle"/>
+        </small>
+
+        <div>
+          <Dropdown 
+            options={mainCategories}
+            value={partnerData.mainCategoryId}
+            onChange={(e: Event, value: string) =>
+              handleInputChange(value, 'mainCategoryId')
+            }
+          />
+        </div>
       </div>
 
       <div className="mb7 categories-and-subcategories">

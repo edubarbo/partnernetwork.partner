@@ -35,5 +35,7 @@
   "partnernetwork.app.errors.required": "",
   "partnernetwork.app.errors.name": "",
   "partnernetwork.app.errors.description": "",
-  "partnernetwork.app.errors.email": ""
+  "partnernetwork.app.errors.email": "",
+  "partnernetwork.app.main-category-title": "",
+  "partnernetwork.app.main-category-subtitle": ""
 }

@@ -267,9 +267,9 @@ optimism@^0.16.2:
     "@wry/context" "^0.7.0"
     "@wry/trie" "^0.3.0"
 
-"partnernetwork.partner@http://partnernetwork.vtexassets.com/_v/public/typings/v1/partnernetwork.partner@5.0.5/public/@types/partnernetwork.partner":
+"partnernetwork.partner@https://playground--partnernetwork.myvtex.com/_v/private/typings/linked/v1/partnernetwork.partner@5.0.10+build1694561738/public/_types/react":
   version "0.0.0"
-  resolved "http://partnernetwork.vtexassets.com/_v/public/typings/v1/partnernetwork.partner@5.0.5/public/@types/partnernetwork.partner#0263aa41aaa891f1d4756df0e45fe8d4fc4b2629"
+  resolved "https://playground--partnernetwork.myvtex.com/_v/private/typings/linked/v1/partnernetwork.partner@5.0.10+build1694561738/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
 
 prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.8.1"
@@ -372,17 +372,17 @@ typescript@3.9.7:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
   integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime":
-  version "8.132.3"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.132.3/public/@types/vtex.render-runtime#c7dd142e384f38bd7a7c841543b73e9349fadc93"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.1/public/@types/vtex.render-runtime":
+  version "8.134.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.1/public/@types/vtex.render-runtime#da48779c477fbef1521010718b0f779ee1ae1ffe"
 
-"vtex.store-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.86.0/public/@types/vtex.store-resources":
-  version "0.86.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.86.0/public/@types/vtex.store-resources#f7342903c67ab8abe50f413b2ca4b845c93e4706"
+"vtex.store-resources@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.91.0/public/@types/vtex.store-resources":
+  version "0.91.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.91.0/public/@types/vtex.store-resources#16b841f01725d35f0b5bc2ad386dcdcb10020d0f"
 
-"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide":
-  version "9.146.1"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide#66db40ca1b78ad77ce4beedabecee320e1ef2ead"
+"vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide":
+  version "9.146.9"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide#d1601fedfb665c6173334753171717da64e670bc"
 
 zen-observable-ts@^0.8.21:
   version "0.8.21"

@@ -13,7 +13,7 @@ import routes from './routes'
 // Clients
 import { Clients } from './clients'
 
-const SIX_SECONDS_MS = 6 * 1000
+const SIX_SECONDS_MS = 30 * 1000
 
 declare global {
   type State = RecorderState

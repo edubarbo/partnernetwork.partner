@@ -8,14 +8,14 @@
     "@types/async-busboy": "^0.7.0",
     "@types/co-body": "^0.0.3",
     "@types/node": "12.x",
-    "@vtex/api": "6.45.19",
+    "@vtex/api": "6.45.24",
     "eslint": "^6.3.0",
     "eslint-config-vtex": "^11.0.0",
-    "partnernetwork.partner": "http://partnernetwork.vtexassets.com/_v/public/typings/v1/partnernetwork.partner@5.0.5/public/@types/partnernetwork.partner",
+    "partnernetwork.partner": "https://playground--partnernetwork.myvtex.com/_v/private/typings/linked/v1/partnernetwork.partner@5.0.10+build1694561738/public/_types/react",
     "prettier": "^1.18.2",
     "typescript": "3.9.7",
-    "vtex.store-resources": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.86.0/public/@types/vtex.store-resources",
-    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.1/public/@types/vtex.styleguide"
+    "vtex.store-resources": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.store-resources@0.91.0/public/@types/vtex.store-resources",
+    "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide"
   },
   "scripts": {
     "lint": "tsc --noEmit --pretty && eslint -c .eslintrc.json --fix './**/*.ts'"

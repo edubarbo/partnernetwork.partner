@@ -30,13 +30,15 @@
   "partnernetwork.app.input-client-accountName.placeholder": "Account Name do cliente*",
   "partnernetwork.app.input-client-description.placeholder": "Descrição*",
   "partnernetwork.app.about-the-client": "Sobre o cliente",
-  "partnernetwork.app.categories-and-subcategories-title": "Categorias e Subcategorias",
-  "partnernetwork.app.categories-and-subcategories-subtitle": "Parceiro, por favor indique a sua categoria principal de atuação. Ela está descrita como o Subtipo da parceria no seu contrato com a VTEX.",
+  "partnernetwork.app.categories-and-subcategories-title": "Serviços",
+  "partnernetwork.app.categories-and-subcategories-subtitle": "Liste quais são seus principais serviços ofertados.",
   "partnernetwork.app.status-approved": "Sua solicitação foi aprovada",
   "partnernetwork.app.status-waiting": "Serviço solicitado com sucesso! Por favor, aguarde. Em alguns minutos estará visível no seu admin. Será disponibilizado no Partner Portal após aprovação da VTEX.",
   "partnernetwork.app.status-pending": "Sua solicitação está pendente",
   "partnernetwork.app.errors.required": "Obrigatorio",
   "partnernetwork.app.errors.name": "Mínimo 3 caracteres ou mais",
   "partnernetwork.app.errors.description": "Mínimo 10 caracteres ou mais",
-  "partnernetwork.app.errors.email": "Introduzir um email válido"
+  "partnernetwork.app.errors.email": "Introduzir um email válido",
+  "partnernetwork.app.main-category-title": "Categoria Principal",
+  "partnernetwork.app.main-category-subtitle": "Parceiro, por favor indique a sua categoria principal de atuação. Ela está descrita como o Subtipo da parceria no seu contrato com a VTEX."
 }

@@ -28,6 +28,7 @@ interface IPartnerData extends ICommonFields {
   // emailMarketing: string
   // emailFinanceiro: string
   status: 'PENDING' | 'PROCESSING' | 'APPROVED' | string
+  mainCategoryId: string
 }
 
 interface ISelectOption {

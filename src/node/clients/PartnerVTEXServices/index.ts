@@ -14,9 +14,11 @@ interface GetDataByQuery {
   }
 }
 
+//TODO: Alterar o workspace
+
 export default class PartnerVTEXServices extends ExternalClient {
   constructor(context: IOContext, options?: InstanceOptions) {
-    super('http://partnernetwork.myvtex.com', context, options)
+    super('http://playground--partnernetwork.myvtex.com', context, options)
   }
 
   public async getDataWithFormData(
@@ -34,5 +36,10 @@ export default class PartnerVTEXServices extends ExternalClient {
       query,
       variables,
     })
+  }
+
+  //TODO: Retirar
+  public async dummyGet(): Promise<IOResponse<any>> {
+    return this.http.get('/_v/playground')
   }
 }

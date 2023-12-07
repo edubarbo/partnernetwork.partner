@@ -55,5 +55,11 @@
   },
   {
     "id": "partnernetwork.app.button-save"
+  },
+  {
+    "id": "partnernetwork.app.main-category-title"
+  },
+  {
+    "id": "partnernetwork.app.main-category-subtitle"
   }
 ]
